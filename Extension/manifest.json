@@ -14,5 +14,12 @@
         "39" : "img/icon39.png"
     },
     "default_popup": "popup.html"
-  }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js" : ["js/popup.js"]
+    }
+    ]
 }
