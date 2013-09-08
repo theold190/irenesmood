@@ -51,14 +51,14 @@ function updateMood() {
 	var mood = "TiredMood";
 	var date = new Date();
 
-	if (isHungryMood(date)) {
+	if (isPartyMood(date)) {
+		mood = "PartyMood";
+	}
+	else if (isHungryMood(date)) {
 		mood = "HungryMood";
 	}
 	else if (isVeryTiredMood(date)) {
 		mood = "VeryTiredMood";
-	}
-	else if (isPartyMood(date)) {
-		mood = "PartyMood";
 	}
 	// No special mood, leave the default
 	else {
