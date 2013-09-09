@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Irene's mood",
-  "version": "0.1",
+  "version": "0.2",
   "description": "An extension to show what mood Irene has at this moment",
   "icons": { "16": "img/icon16.png",
              "48": "img/icon48.png",
