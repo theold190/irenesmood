@@ -4,6 +4,8 @@ This extension will help you to know what mood does Irene has at this specific m
 
 In case if predicted mode will not match the real one - please, don't be stupid, just enjoy that moment.
 
+To take a look on the current Irene's mood please visit http://theold190.github.io/irenesmood/.
+
 To install the extension please follow http://bit.ly/irenesmood.
 
 Icon is taken from http://www.clker.com/clipart-10842.html.
