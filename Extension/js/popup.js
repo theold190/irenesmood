@@ -27,7 +27,7 @@ function isHungryMood(date) {
 		return true;
 	}
 	//Check for diner
-	if (hours >= 19 && hours <= 21) {
+	if (hours >= 19 && hours < 21) {
 		return true;
 	}
 	return false;
